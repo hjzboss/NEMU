@@ -23,6 +23,7 @@ extern rtlreg_t tmp_reg[4];
 
 #define dsrc1 (id_src1->preg)
 #define dsrc2 (id_src2->preg)
+#define dsrc3 (id_src3->preg)
 #define ddest (id_dest->preg)
 #define s0    (&tmp_reg[0])
 #define s1    (&tmp_reg[1])

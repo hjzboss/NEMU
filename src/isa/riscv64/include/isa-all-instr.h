@@ -210,6 +210,7 @@
   f(c_add) f(c_and) f(c_or) f(c_xor) f(c_sub) f(c_addw) f(c_subw) \
   f(p_blez) f(p_bgez) f(p_bltz) f(p_bgtz) \
   f(p_inc) f(p_dec) \
+  f(crc32) f(crc32w) f(mulhash32) f(mulhash64) \
   AMO_INSTR_TERNARY(f) \
   SYS_INSTR_TERNARY(f) \
   FLOAT_INSTR_TERNARY(f) \

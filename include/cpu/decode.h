@@ -59,7 +59,7 @@ typedef struct Decode {
   vaddr_t snpc; // sequential next pc
   IFDEF (CONFIG_PERF_OPT, const void *EHelper);
   IFNDEF(CONFIG_PERF_OPT, void (*EHelper)(struct Decode *));
-  Operand dest, src1, src2;
+  Operand dest, src1, src2, src3;
   vaddr_t jnpc;
   uint16_t idx_in_bb; // the number of instruction in the basic block, start from 1
   uint8_t type;
@@ -78,6 +78,7 @@ typedef struct Decode {
 
 #define id_src1 (&s->src1)
 #define id_src2 (&s->src2)
+#define id_src3 (&s->src3)
 #define id_dest (&s->dest)
 
 
